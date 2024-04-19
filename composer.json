@@ -1,0 +1,42 @@
+{
+    "name": "brace/flavor-spa",
+    "type": "project",
+    "description": "Single Page Application Meta Package",
+    "keywords": ["Brace", "flavor"],
+    "homepage": "https://infracamp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Leuffen",
+            "email": "matthes@leuffen.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "phore/hydrator": "*",
+        "brace/core": "*",
+        "brace/dbg": "*",
+        "phore/cli2": "dev-main",
+        "brace/mod-session": "*",
+        "brace/mod-spaserve": "*",
+        "brace/mod-cors": "*",
+        "brace/mod-body": "*",
+        "brace/mod-router": "*",
+        "brace/mod-request-laminas": "*",
+        "brace/mod-auth-basic": "*",
+        "brace/command": "dev-main"
+    },
+
+    "require-dev": {
+    },
+
+    "minimum-stability": "dev",
+    "extra": {
+
+        "branch-alias": {
+        }
+    },
+    "config": {
+        "preferred-install": "source"
+    }
+}
