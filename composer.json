@@ -18,7 +18,7 @@
         "brace/dbg": "*",
         "phore/cli2": "dev-main",
         "brace/mod-session": "*",
-        "brace/mod-spaserve": "*",
+        "brace/mod-spaserve": "dev-proxy",
         "brace/mod-cors": "*",
         "brace/mod-body": "*",
         "brace/mod-router": "*",
