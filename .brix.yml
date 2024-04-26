@@ -1,0 +1,10 @@
+version: '1.0'
+
+
+
+coder:
+    include:
+        - ./brixcoder/
+    exclude:
+        - ./vendor/*
+        - ./node_modules/*
