@@ -3,6 +3,7 @@ version: '1.0'
 
 
 coder:
+    example_dir: ./brixcoder/
     include:
         - ./brixcoder/
     exclude:
