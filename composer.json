@@ -22,7 +22,7 @@
         "brace/mod-cors": "*",
         "brace/mod-body": "*",
         "brace/mod-router": "*",
-        "brace/mod-request-laminas": "*",
+        "brace/mod-request-laminas": "^2.0.1",
         "brace/mod-auth-basic": "*",
         "brace/command": "dev-main"
     },
